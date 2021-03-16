@@ -3,17 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import TopList from './TopList/TopList';
 import reportWebVitals from './reportWebVitals';
-import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import { Route, BrowserRouter, Switch, HashRouter } from 'react-router-dom';
 import FavouriteList from './FavouriteList/FavouriteList';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Switch>
-        <Route path="/favourites" component={FavouriteList}></Route>
-        <Route path="/" component={TopList}></Route>
-      </Switch>
-    </BrowserRouter>
+    <HashRouter>
+        <Route exact path="/favourites" component={FavouriteList}></Route>
+        <Route exact path="/" component={TopList}></Route>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

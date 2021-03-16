@@ -25,7 +25,7 @@ function TopList() {
     <div className="App">
       <header className="App-Header">
         Top Posts
-        <a className="App-Navigation" href="./favourites">
+        <a className="App-Navigation" href="#/favourites">
           Favourites
           <IconContext.Provider value={{ color: "inherit" }}>
             <FaChevronRight></FaChevronRight>
