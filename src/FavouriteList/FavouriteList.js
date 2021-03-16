@@ -15,7 +15,7 @@ function FavouriteList() {
     <div className="Favourite">
       <div className="Favourite-Header">
         Favourites
-        <a className="Favourite-Navigation" href="/">
+        <a className="Favourite-Navigation" href="../">
           <IconContext.Provider value={{ color: "inherit" }}>
             <FaChevronLeft></FaChevronLeft>
           </IconContext.Provider>
