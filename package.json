@@ -73,7 +73,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "PUBLIC_URL=https://azalac.github.io/AWF_A1/ BUILD_PATH=docs node scripts/build.js",
+    "build": "PUBLIC_URL=https://azalac.github.io/AWF_A1/index.html BUILD_PATH=docs node scripts/build.js",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
