@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "https://azalac.github.io/AWF_A1/static/css/main.722374ee.chunk.css",
-    "main.js": "https://azalac.github.io/AWF_A1/static/js/main.e6381a9e.chunk.js",
-    "main.js.map": "https://azalac.github.io/AWF_A1/static/js/main.e6381a9e.chunk.js.map",
+    "main.css": "https://azalac.github.io/AWF_A1/static/css/main.3be9a81c.chunk.css",
+    "main.js": "https://azalac.github.io/AWF_A1/static/js/main.5a528e40.chunk.js",
+    "main.js.map": "https://azalac.github.io/AWF_A1/static/js/main.5a528e40.chunk.js.map",
     "runtime-main.js": "https://azalac.github.io/AWF_A1/static/js/runtime-main.8b0a696e.js",
     "runtime-main.js.map": "https://azalac.github.io/AWF_A1/static/js/runtime-main.8b0a696e.js.map",
     "static/js/2.8ffe0b91.chunk.js": "https://azalac.github.io/AWF_A1/static/js/2.8ffe0b91.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.261c75fb.chunk.js": "https://azalac.github.io/AWF_A1/static/js/3.261c75fb.chunk.js",
     "static/js/3.261c75fb.chunk.js.map": "https://azalac.github.io/AWF_A1/static/js/3.261c75fb.chunk.js.map",
     "index.html": "https://azalac.github.io/AWF_A1/index.html",
-    "static/css/main.722374ee.chunk.css.map": "https://azalac.github.io/AWF_A1/static/css/main.722374ee.chunk.css.map",
+    "static/css/main.3be9a81c.chunk.css.map": "https://azalac.github.io/AWF_A1/static/css/main.3be9a81c.chunk.css.map",
     "static/js/2.8ffe0b91.chunk.js.LICENSE.txt": "https://azalac.github.io/AWF_A1/static/js/2.8ffe0b91.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8b0a696e.js",
     "static/js/2.8ffe0b91.chunk.js",
-    "static/css/main.722374ee.chunk.css",
-    "static/js/main.e6381a9e.chunk.js"
+    "static/css/main.3be9a81c.chunk.css",
+    "static/js/main.5a528e40.chunk.js"
   ]
 }

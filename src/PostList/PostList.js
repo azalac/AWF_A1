@@ -27,7 +27,14 @@ class PostList extends Component {
                 <div className="PostList-List">
                     {this.props.posts.map(post => (
                         <div className="PostList-Post" key={post.id}>
-                            {post.thumbnail ? <img src={post.thumbnail} alt={post.title}></img> : null}
+
+                            {post.thumbnail ?
+                                <img src={post.thumbnail}
+                                     alt=""
+                                     onError={evt=>evt.target.style.display="none"}>
+                                    
+                                </img> : null}
+
                             <div className="PostList-PostBody">
                                 <a href={post.url}>{post.title}</a>
                                 <div className="PostList-Score">{post.score}</div>

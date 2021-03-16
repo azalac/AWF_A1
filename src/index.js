@@ -12,6 +12,11 @@ ReactDOM.render(
         <Route exact path="/favourites" component={FavouriteList}></Route>
         <Route exact path="/" component={TopList}></Route>
     </HashRouter>
+    <div id="Author-Overlay">
+      Austin Zalac 7900020
+      <br></br>
+      <a href="https://azalac.github.io/AWF_A1/#/">Github Pages</a>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
