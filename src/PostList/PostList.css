@@ -1,0 +1,40 @@
+
+.PostList-Empty {
+    font-size: initial;
+    color: gray;
+    margin-top: 3em;
+}
+
+.PostList-List {
+    font-size: initial;
+    margin-top: 1em;
+}
+
+.PostList-Post {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 3px;
+    text-align: left;
+    width: 500px;
+}
+
+.PostList-Post > * {
+    margin: 5px;
+}
+
+.PostList-PostBody {
+    flex-grow: 1;
+}
+
+.PostList-Score {
+    margin-left: 1em;
+    margin-top: 0.5em;
+    filter: brightness(85%);
+}
+
+.PostList-Favourite {
+    cursor: pointer;
+}

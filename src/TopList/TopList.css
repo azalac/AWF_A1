@@ -1,0 +1,29 @@
+.App {
+  background-color: #282c34;
+  display: flex;
+  min-height: 100%;
+  width: 100%;
+  padding-bottom: 1em;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.App > * {
+  width: 500px;
+}
+
+.App-Header {
+  position: relative;
+  padding-top: 1em;
+}
+
+.App-Navigation {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  vertical-align: middle;
+  font-size: initial;
+}
